@@ -39,6 +39,7 @@ uvicorn main:app --reload
 | File Name | Description |
 |-----------|-------------|
 | `1.png`   | FastAPI running with "Hello World!" |
+![Hello World](screenshots/1.png)  
 | `2.png`   | Add a new item (e.g. `{"id":1,"name":"apple"}`) |
 | `3.png`   | GET `/items` showing all items |
 | `4.png`   | PUT `/items/1` to update item |
@@ -46,7 +47,6 @@ uvicorn main:app --reload
 
 ### 📸 Preview
 
-![Hello World](screenshots/1.png)  
 ![Add Item](screenshots/2.png)  
 ![List Items](screenshots/3.png)  
 ![Update Item](screenshots/4.png)  
