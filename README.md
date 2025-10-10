@@ -46,18 +46,15 @@ uvicorn main:app --reload
 
 
 
- 
 
-
-![Delete Item](screenshots/5.png)
-
-### 🛠️ Technologies Used
-- Python 3.11+
-- FastAPI
-- Uvicorn
-- Pydantic
-- Postman
-- Git & GitHub / GitLab
+🛠️ Technologies Used
+-  Python 3.11+ – Core programming language
+-  FastAPI – High-performance web framework
+-  Uvicorn – ASGI server for FastAPI
+-  Pydantic – Data validation and parsing
+-  Postman – API testing and debugging
+-  Git – Version control
+-  GitHub / 🦊 GitLab – Code hosting platform
 
 
 👩‍💻 Author
