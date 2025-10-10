@@ -26,12 +26,12 @@ uvicorn main:app --reload
 
 
 🖼️ Screenshots (CAPs)
-|  |  | 
-| Capture d'écran 2025-10-10 190624.png | FastAPI running in browser with {"Hello":"World"} | 
-| Capture d'écran 2025-10-10 190815.png | Add a new item | 
-| Capture d'écran 2025-10-10 190946.png | GET /items?limit=3 Successful with multiple items| 
-| Capture d'écran 2025-10-10 191741.png | Successful to update item | 
-| Capture d'écran 2025-10-10 191807.png | Successful to remove item | 
+
+| screenshots/Capture d'écran 2025-10-10 190624.png | FastAPI running in browser with {"Hello":"World"} | 
+| screenshots/Capture d'écran 2025-10-10 190815.png | Add a new item | 
+| screenshots/Capture d'écran 2025-10-10 190946.png | GET /items?limit=3 Successful with multiple items| 
+| screenshots/Capture d'écran 2025-10-10 191741.png | Successful to update item | 
+| screenshots/Capture d'écran 2025-10-10 191807.png | Successful to remove item | 
 
 
 🛠️ Technologies Used
