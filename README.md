@@ -36,20 +36,19 @@ uvicorn main:app --reload
 
 ## 🖼️ Screenshots
 
-| File Name | Description |
-|-----------|-------------|
-| `1.png`   | FastAPI running with "Hello World!" |
-![Hello World](screenshots/1.png)  
-| `2.png`   | Add a new item (e.g. `{"id":1,"name":"apple"}`) |
-| `3.png`   | GET `/items` showing all items |
-| `4.png`   | PUT `/items/1` to update item |
-| `5.png`   | DELETE `/items/1` to remove item |
+| File Name | Description | 📸 Preview|
+|-----------|-------------|-------------|
+| `1.png`   | FastAPI running with "Hello World!" |![Hello World](screenshots/1.png)  |
+| `2.png`   | Add a new item (e.g. `{"id":1,"name":"apple"}`) |![Add Item](screenshots/2.png) |
+| `3.png`   | GET `/items` showing all items |![List Items](screenshots/3.png)  |
+| `4.png`   | PUT `/items/1` to update item |![Update Item](screenshots/4.png)  |
+| `5.png`   | DELETE `/items/1` to remove item |![Delete Item](screenshots/5.png)|
 
-### 📸 Preview
 
-![Add Item](screenshots/2.png)  
-![List Items](screenshots/3.png)  
-![Update Item](screenshots/4.png)  
+
+ 
+
+
 ![Delete Item](screenshots/5.png)
 
 ### 🛠️ Technologies Used
