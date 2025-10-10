@@ -16,12 +16,13 @@ cd lab1_fastapi
 uvicorn main:app --reload
 
 📌 Endpoints Overview
-
-|  GET| / | Welcome message | 
-|  POST | /items | Add a new item | 
-|  GET| /items?limit=N | Retrieve item by ID | 
-|  PUT| /items/{item_id} | Update item by ID | 
-|  DELETE| /items/{item_id} | Delete item by ID | 
+| Method | Endpoint            | Description         |
+|--------|---------------------|---------------------|
+| GET    | `/`                 | Welcome message     |
+| POST   | `/items`            | Add a new item      |
+| GET    | `/items?limit=N`    | List first N items  |
+| PUT    | `/items/{item_id}`  | Update item by ID   |
+| DELETE | `/items/{item_id}`  | Delete item by ID   |
 
 
 
@@ -33,14 +34,14 @@ uvicorn main:app --reload
 | screenshots/Capture d'écran 2025-10-10 191741.png | Successful to update item | 
 | screenshots/Capture d'écran 2025-10-10 191807.png | Successful to remove item | 
 
-
-🛠️ Technologies Used
+### 🛠️ Technologies Used
 - Python 3.11+
 - FastAPI
 - Uvicorn
 - Pydantic
 - Postman
 - Git & GitHub / GitLab
+
 
 👩‍💻 Author
 Hanine Ramdhane
