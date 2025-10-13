@@ -1,0 +1,46 @@
+# Environnements virtuels Python
+venv/
+env/
+.venv/
+ENV/
+Requests/venv/
+
+# Fichiers Python compilés
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+**/__pycache__/
+**/*.pyc
+
+# Cache et fichiers temporaires
+.cache/
+.pytest_cache/
+.mypy_cache/
+*.egg-info/
+.eggs/
+
+# Environnements IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Fichiers de configuration locaux
+.env
+.local
+
+# Fichiers de sortie et build
+dist/
+build/
+*.so
+
+# Fichiers de journal
+*.log
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
