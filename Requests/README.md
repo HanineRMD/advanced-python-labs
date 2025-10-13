@@ -1,6 +1,5 @@
 
-#  Python Requests Tutorial
-
+# 🧪 TP – Python Requests Tutorial
 
 **Objectif :** Apprendre à utiliser le module `requests` de Python pour effectuer des requêtes HTTP, gérer les erreurs, les en-têtes, les timeouts et faire du web scraping avec BeautifulSoup.
 
