@@ -1,43 +1,6 @@
-# Environnements virtuels Python
 venv/
-env/
-.venv/
-ENV/
-
-# Fichiers Python compilés
-*.pyc
 __pycache__/
+*.pyc
 *.pyo
 *.pyd
-.Python
-
-# Cache et fichiers temporaires
-.cache/
-.pytest_cache/
-.mypy_cache/
-*.egg-info/
-.eggs/
-
-# Environnements IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Fichiers de configuration locaux
 .env
-.local
-
-# Fichiers de sortie et build
-dist/
-build/
-*.so
-
-# Fichiers de journal
-*.log
-
-# macOS
-.DS_Store
-
-# Windows
-Thumbs.db
