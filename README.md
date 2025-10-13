@@ -1,12 +1,27 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> 3cead5f3590dfec1f97323628a20a90307217126
 # 🧠 Advanced Python Labs – FastAPI, Streamlit & API Testing
 
 This repository contains all lab assignments for the **Advanced Python** course , focused on building web APIs, testing endpoints, and deploying interactive applications.
 
 ---
 
-## 📁 Repository Structure
-advanced-python-labs/ ├── lab1_fastapi/ │   ├── main.py │   ├── README.md ├── lab2_streamlit/ │   ├── app.py │   ├── README.md ├── screenshots/ │  
+## 📁 Repository Structureadvanced-python-labs/
+advanced-python-labs/
+├── lab1_fastapi/
+│   ├── main.py
+│   ├── README.md
+├── screenshots/
+│   ├── 1.png
+│   ├── 2.png
+│   ├── 3.png
+│   ├── 4.png
+│   ├── 5.png
+├── README.md  ← global README for the whole repo
+
+
 ## 🚀 Lab 1 – FastAPI
 
 ### 🎯 Objective
@@ -26,22 +41,27 @@ uvicorn main:app --reload
 | DELETE | `/items/{item_id}`  | Delete item by ID   |
 
 
+## 🖼️ Screenshots
 
-🖼️ Screenshots (CAPs)
+| File Name | Description | 📸 Preview|
+|-----------|-------------|-------------|
+| `1.png`   | FastAPI running with "Hello World!" |![Hello World](screenshots/1.png)  |
+| `2.png`   | Add a new item (e.g. `{"id":1,"name":"apple"}`) |![Add Item](screenshots/2.png) |
+| `3.png`   | GET `/items` showing all items |![List Items](screenshots/3.png)  |
+| `4.png`   | PUT `/items/1` to update item |![Update Item](screenshots/4.png)  |
+| `5.png`   | DELETE `/items/1` to remove item |![Delete Item](screenshots/5.png)|
 
-| screenshots/1.png | FastAPI running in browser with {"Hello":"World"} | 
-| screenshots/2.png | Add a new item | 
-| screenshots/3.png | GET /items?limit=3 Successful with multiple items| 
-| screenshots/4.png | Successful to update item | 
-| screenshots/5.png | Successful to remove item | 
 
-### 🛠️ Technologies Used
-- Python 3.11+
-- FastAPI
-- Uvicorn
-- Pydantic
-- Postman
-- Git & GitHub / GitLab
+
+
+🛠️ Technologies Used
+-  Python 3.11+ – Core programming language
+-  FastAPI – High-performance web framework
+-  Uvicorn – ASGI server for FastAPI
+-  Pydantic – Data validation and parsing
+-  Postman – API testing and debugging
+-  Git – Version control
+-  GitHub / 🦊 GitLab – Code hosting platform
 
 
 👩‍💻 Author
