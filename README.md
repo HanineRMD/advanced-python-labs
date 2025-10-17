@@ -7,8 +7,8 @@ This repository contains all lab assignments for the **Advanced Python** course 
 ## 📁 Repository Structureadvanced-python-labs/
 advanced-python-labs/
 ├── lab1_fastapi/
-│   ├── main.py
-│   ├── README.md
+├── Pydantic
+├── quiz-fastapi
 ├── screenshots/
 │   ├── 1.png
 │   ├── 2.png
@@ -16,8 +16,8 @@ advanced-python-labs/
 │   ├── 4.png
 │   ├── 5.png
 ├── README.md  ← global README for the whole repo
-
-
+├── Requests
+├──.gitignore
 ## 🚀 Lab 1 – FastAPI
 
 ### 🎯 Objective
