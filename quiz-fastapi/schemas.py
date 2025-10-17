@@ -1,0 +1,26 @@
+# schemas.py
+from pydantic import BaseModel
+from typing import List, Optional
+
+class ChoiceBase(BaseModel):
+    choice_text: str
+    is_correct: bool
+
+class ChoiceCreate(ChoiceBase):
+    pass
+
+class ChoiceOut(ChoiceBase):
+    id: int
+    question_id: int
+    class Config:
+        orm_mode = True
+
+class QuestionBase(BaseModel):
+    question_text: str
+    choices: List[ChoiceCreate]
+
+class QuestionOut(BaseModel):
+    id: int
+    question_text: str
+    class Config:
+        orm_mode = True
