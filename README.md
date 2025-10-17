@@ -82,8 +82,8 @@ uvicorn main:app --reload
 |Méthode	Endpoint | Description | 📸 Preview|
 |-----------|-------------|-------------|
 |POST	/questions/ | 	Créer une question avec choix |![Hello World](screenshots/6.png)  |
-|GET	/questions/ | {question_id}	Lire une question |![Add Item](screenshots/7.png) |
-|GET	/choices/| {question_id}	Lire les choix d’une question |![List Items](screenshots/8.png) |
+|GET	/questions/{question_id} |	Lire une question |![Add Item](screenshots/7.png) |
+|GET	/choices/{question_id}| 	Lire les choix d’une question |![List Items](screenshots/8.png) |
 |GET	/questions-with-choices/{question_id} | Question + choix en une requête|![Update Item](screenshots/9.png)  |
 
 
