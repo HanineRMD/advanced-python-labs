@@ -1,14 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
->>>>>>> 3cead5f3590dfec1f97323628a20a90307217126
-=======
->>>>>>> 429f50f8d30fbcc9254190bf8393361408902265
-=======
->>>>>>> b5489e8 (Update README.md)
-# 🧠 Advanced Python Labs – FastAPI, Streamlit & API Testing
+ 🧠 Advanced Python Labs – FastAPI, Streamlit & API Testing
 
 This repository contains all lab assignments for the **Advanced Python** course , focused on building web APIs, testing endpoints, and deploying interactive applications.
 
